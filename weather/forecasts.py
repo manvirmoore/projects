@@ -13,10 +13,9 @@ API_KEY = os.getenv('WEATHER_KEY')
 
 BASE_URL = "https://api.openweathermap.org/data/2.5/forecast"
 
-# List the cities to get data for
+# List the cities to get data for - places I've been in the last few years
 cities = ("Brighton", 
           "Wolverhampton",
-          "London" 
           "Rome",
           "Copenhagen",
           "Dublin",
@@ -37,7 +36,7 @@ def get_weather(city):
     return response.json()
 
 def save_weather(city, weather_data):
-    conn = sqlite3.connect("forecast.db")
+    conn = sqlite3.connect("weather/forecast.db")
     cursor = conn.cursor()
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS forecast (
