@@ -1,0 +1,291 @@
+league,season,team,position
+Premier League,2022,Manchester City,1
+Premier League,2022,Arsenal,2
+Premier League,2022,Manchester United,3
+Premier League,2022,Newcastle,4
+Premier League,2022,Liverpool,5
+Premier League,2022,Brighton,6
+Premier League,2022,Aston Villa,7
+Premier League,2022,Tottenham,8
+Premier League,2022,Brentford,9
+Premier League,2022,Fulham,10
+Premier League,2022,Crystal Palace,11
+Premier League,2022,Chelsea,12
+Premier League,2022,Wolves,13
+Premier League,2022,West Ham,14
+Premier League,2022,Bournemouth,15
+Premier League,2022,Nottingham Forest,16
+Premier League,2022,Everton,17
+Premier League,2022,Leicester,18
+Premier League,2022,Leeds,19
+Premier League,2022,Southampton,20
+Premier League,2023,Manchester City,1
+Premier League,2023,Arsenal,2
+Premier League,2023,Liverpool,3
+Premier League,2023,Aston Villa,4
+Premier League,2023,Tottenham,5
+Premier League,2023,Chelsea,6
+Premier League,2023,Newcastle,7
+Premier League,2023,Manchester United,8
+Premier League,2023,West Ham,9
+Premier League,2023,Crystal Palace,10
+Premier League,2023,Brighton,11
+Premier League,2023,Bournemouth,12
+Premier League,2023,Fulham,13
+Premier League,2023,Wolves,14
+Premier League,2023,Everton,15
+Premier League,2023,Brentford,16
+Premier League,2023,Nottingham Forest,17
+Premier League,2023,Luton,18
+Premier League,2023,Burnley,19
+Premier League,2023,Sheffield Utd,20
+Premier League,2024,Liverpool,1
+Premier League,2024,Arsenal,2
+Premier League,2024,Manchester City,3
+Premier League,2024,Chelsea,4
+Premier League,2024,Newcastle,5
+Premier League,2024,Aston Villa,6
+Premier League,2024,Nottingham Forest,7
+Premier League,2024,Brighton,8
+Premier League,2024,Bournemouth,9
+Premier League,2024,Brentford,10
+Premier League,2024,Fulham,11
+Premier League,2024,Crystal Palace,12
+Premier League,2024,Everton,13
+Premier League,2024,West Ham,14
+Premier League,2024,Manchester United,15
+Premier League,2024,Wolves,16
+Premier League,2024,Tottenham,17
+Premier League,2024,Leicester,18
+Premier League,2024,Ipswich,19
+Premier League,2024,Southampton,20
+La Liga,2022,Barcelona,1
+La Liga,2022,Real Madrid,2
+La Liga,2022,Atletico Madrid,3
+La Liga,2022,Real Sociedad,4
+La Liga,2022,Villarreal,5
+La Liga,2022,Real Betis,6
+La Liga,2022,Osasuna,7
+La Liga,2022,Athletic Club,8
+La Liga,2022,Mallorca,9
+La Liga,2022,Girona,10
+La Liga,2022,Rayo Vallecano,11
+La Liga,2022,Sevilla,12
+La Liga,2022,Celta Vigo,13
+La Liga,2022,Cadiz,14
+La Liga,2022,Getafe,15
+La Liga,2022,Valencia,16
+La Liga,2022,Almeria,17
+La Liga,2022,Valladolid,18
+La Liga,2022,Espanyol,19
+La Liga,2022,Elche,20
+La Liga,2023,Real Madrid,1
+La Liga,2023,Barcelona,2
+La Liga,2023,Girona,3
+La Liga,2023,Atletico Madrid,4
+La Liga,2023,Athletic Club,5
+La Liga,2023,Real Sociedad,6
+La Liga,2023,Real Betis,7
+La Liga,2023,Villarreal,8
+La Liga,2023,Valencia,9
+La Liga,2023,Alaves,10
+La Liga,2023,Osasuna,11
+La Liga,2023,Getafe,12
+La Liga,2023,Celta Vigo,13
+La Liga,2023,Sevilla,14
+La Liga,2023,Mallorca,15
+La Liga,2023,Las Palmas,16
+La Liga,2023,Rayo Vallecano,17
+La Liga,2023,Cadiz,18
+La Liga,2023,Almeria,19
+La Liga,2023,Granada CF,20
+La Liga,2024,Barcelona,1
+La Liga,2024,Real Madrid,2
+La Liga,2024,Atletico Madrid,3
+La Liga,2024,Athletic Club,4
+La Liga,2024,Villarreal,5
+La Liga,2024,Real Betis,6
+La Liga,2024,Celta Vigo,7
+La Liga,2024,Rayo Vallecano,8
+La Liga,2024,Osasuna,9
+La Liga,2024,Mallorca,10
+La Liga,2024,Real Sociedad,11
+La Liga,2024,Valencia,12
+La Liga,2024,Getafe,13
+La Liga,2024,Espanyol,14
+La Liga,2024,Alaves,15
+La Liga,2024,Girona,16
+La Liga,2024,Sevilla,17
+La Liga,2024,Leganes,18
+La Liga,2024,Las Palmas,19
+La Liga,2024,Valladolid,20
+Serie A,2022,Napoli,1
+Serie A,2022,Lazio,2
+Serie A,2022,Inter,3
+Serie A,2022,AC Milan,4
+Serie A,2022,Atalanta,5
+Serie A,2022,AS Roma,6
+Serie A,2022,Juventus,7
+Serie A,2022,Fiorentina,8
+Serie A,2022,Bologna,9
+Serie A,2022,Torino,10
+Serie A,2022,Monza,11
+Serie A,2022,Udinese,12
+Serie A,2022,Sassuolo,13
+Serie A,2022,Empoli,14
+Serie A,2022,Salernitana,15
+Serie A,2022,Lecce,16
+Serie A,2022,Spezia,17
+Serie A,2022,Verona,18
+Serie A,2022,Cremonese,19
+Serie A,2022,Sampdoria,20
+Serie A,2023,Inter,1
+Serie A,2023,AC Milan,2
+Serie A,2023,Juventus,3
+Serie A,2023,Atalanta,4
+Serie A,2023,Bologna,5
+Serie A,2023,AS Roma,6
+Serie A,2023,Lazio,7
+Serie A,2023,Fiorentina,8
+Serie A,2023,Torino,9
+Serie A,2023,Napoli,10
+Serie A,2023,Genoa,11
+Serie A,2023,Monza,12
+Serie A,2023,Verona,13
+Serie A,2023,Lecce,14
+Serie A,2023,Udinese,15
+Serie A,2023,Cagliari,16
+Serie A,2023,Empoli,17
+Serie A,2023,Frosinone,18
+Serie A,2023,Sassuolo,19
+Serie A,2023,Salernitana,20
+Serie A,2024,Napoli,1
+Serie A,2024,Inter,2
+Serie A,2024,Atalanta,3
+Serie A,2024,Juventus,4
+Serie A,2024,AS Roma,5
+Serie A,2024,Fiorentina,6
+Serie A,2024,Lazio,7
+Serie A,2024,AC Milan,8
+Serie A,2024,Bologna,9
+Serie A,2024,Como,10
+Serie A,2024,Torino,11
+Serie A,2024,Udinese,12
+Serie A,2024,Genoa,13
+Serie A,2024,Verona,14
+Serie A,2024,Cagliari,15
+Serie A,2024,Parma,16
+Serie A,2024,Lecce,17
+Serie A,2024,Empoli,18
+Serie A,2024,Venezia,19
+Serie A,2024,Monza,20
+Bundesliga,2022,Bayern Munich,1
+Bundesliga,2022,Borussia Dortmund,2
+Bundesliga,2022,RB Leipzig,3
+Bundesliga,2022,Union Berlin,4
+Bundesliga,2022,SC Freiburg,5
+Bundesliga,2022,Bayer Leverkusen,6
+Bundesliga,2022,Eintracht Frankfurt,7
+Bundesliga,2022,VfL Wolfsburg,8
+Bundesliga,2022,FSV Mainz 05,9
+Bundesliga,2022,Borussia Monchengladbach,10
+Bundesliga,2022,FC Koln,11
+Bundesliga,2022,1899 Hoffenheim,12
+Bundesliga,2022,Werder Bremen,13
+Bundesliga,2022,VfL BOCHUM,14
+Bundesliga,2022,FC Augsburg,15
+Bundesliga,2022,VfB Stuttgart,16
+Bundesliga,2022,FC Schalke 04,17
+Bundesliga,2022,Hertha Berlin,18
+Bundesliga,2023,Bayer Leverkusen,1
+Bundesliga,2023,VfB Stuttgart,2
+Bundesliga,2023,Bayern Munich,3
+Bundesliga,2023,RB Leipzig,4
+Bundesliga,2023,Borussia Dortmund,5
+Bundesliga,2023,Eintracht Frankfurt,6
+Bundesliga,2023,1899 Hoffenheim,7
+Bundesliga,2023,FC Heidenheim,8
+Bundesliga,2023,Werder Bremen,9
+Bundesliga,2023,SC Freiburg,10
+Bundesliga,2023,FC Augsburg,11
+Bundesliga,2023,VfL Wolfsburg,12
+Bundesliga,2023,FSV Mainz 05,13
+Bundesliga,2023,Borussia Monchengladbach,14
+Bundesliga,2023,Union Berlin,15
+Bundesliga,2023,Vfl Bochum,16
+Bundesliga,2023,1.FC Köln,17
+Bundesliga,2023,SV Darmstadt 98,18
+Bundesliga,2024,Bayern München,1
+Bundesliga,2024,Bayer Leverkusen,2
+Bundesliga,2024,Eintracht Frankfurt,3
+Bundesliga,2024,Borussia Dortmund,4
+Bundesliga,2024,SC Freiburg,5
+Bundesliga,2024,FSV Mainz 05,6
+Bundesliga,2024,RB Leipzig,7
+Bundesliga,2024,Werder Bremen,8
+Bundesliga,2024,VfB Stuttgart,9
+Bundesliga,2024,Borussia Mönchengladbach,10
+Bundesliga,2024,VfL Wolfsburg,11
+Bundesliga,2024,FC Augsburg,12
+Bundesliga,2024,Union Berlin,13
+Bundesliga,2024,FC St. Pauli,14
+Bundesliga,2024,1899 Hoffenheim,15
+Bundesliga,2024,1. FC Heidenheim,16
+Bundesliga,2024,Holstein Kiel,17
+Bundesliga,2024,VfL Bochum,18
+Ligue 1,2022,Paris Saint Germain,1
+Ligue 1,2022,Lens,2
+Ligue 1,2022,Marseille,3
+Ligue 1,2022,Rennes,4
+Ligue 1,2022,Lille,5
+Ligue 1,2022,Monaco,6
+Ligue 1,2022,Lyon,7
+Ligue 1,2022,Clermont Foot,8
+Ligue 1,2022,Nice,9
+Ligue 1,2022,Lorient,10
+Ligue 1,2022,Reims,11
+Ligue 1,2022,Montpellier,12
+Ligue 1,2022,Toulouse,13
+Ligue 1,2022,Stade Brestois 29,14
+Ligue 1,2022,Strasbourg,15
+Ligue 1,2022,Nantes,16
+Ligue 1,2022,Auxerre,17
+Ligue 1,2022,Ajaccio,18
+Ligue 1,2022,Estac Troyes,19
+Ligue 1,2022,Angers,20
+Ligue 1,2023,Paris Saint Germain,1
+Ligue 1,2023,Monaco,2
+Ligue 1,2023,Stade Brestois 29,3
+Ligue 1,2023,Lille,4
+Ligue 1,2023,Nice,5
+Ligue 1,2023,Lyon,6
+Ligue 1,2023,Lens,7
+Ligue 1,2023,Marseille,8
+Ligue 1,2023,Reims,9
+Ligue 1,2023,Rennes,10
+Ligue 1,2023,Toulouse,11
+Ligue 1,2023,Montpellier,12
+Ligue 1,2023,Strasbourg,13
+Ligue 1,2023,Nantes,14
+Ligue 1,2023,LE Havre,15
+Ligue 1,2023,Metz,16
+Ligue 1,2023,Lorient,17
+Ligue 1,2023,Clermont Foot,18
+Ligue 1,2024,Paris Saint Germain,1
+Ligue 1,2024,Marseille,2
+Ligue 1,2024,Monaco,3
+Ligue 1,2024,Nice,4
+Ligue 1,2024,Lille,5
+Ligue 1,2024,Lyon,6
+Ligue 1,2024,Strasbourg,7
+Ligue 1,2024,Lens,8
+Ligue 1,2024,Stade Brestois 29,9
+Ligue 1,2024,Toulouse,10
+Ligue 1,2024,Auxerre,11
+Ligue 1,2024,Rennes,12
+Ligue 1,2024,Nantes,13
+Ligue 1,2024,Angers,14
+Ligue 1,2024,Le Havre,15
+Ligue 1,2024,Reims,16
+Ligue 1,2024,Saint Etienne,17
+Ligue 1,2024,Montpellier,18

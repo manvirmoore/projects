@@ -1,0 +1,54 @@
+Per team:
+
+1. end League position last 5 years
+2. trophies won last 5 years
+
+3. most common xi last season - player stats csv
+4. wld record last season - create a matches csv? 
+5. biggest win last season - create a matches csv? 
+6. biggest loss last season - create a matches csv? 
+
+7. latest transfers in
+    
+        # for one team:
+        bayern <- tm_team_transfers(
+                team_url = "https://www.transfermarkt.com/fc-bayern-munchen/startseite/verein/27/saison_id/2020", 
+                transfer_window = "all")
+        
+        dplyr::glimpse(bayern)
+
+        # or for multiple teams:
+        team_urls <- tm_league_team_urls(
+                country_name = "England", 
+                start_year = 2020)
+        epl_xfers_2020 <- tm_team_transfers(
+                team_url = team_urls, 
+                transfer_window = "all")
+
+
+8. current player list - could use player stats csv, or the below
+
+        Potentially: squad value 
+        
+        # Can do it for a single league:
+        a_league_valuations <- tm_player_market_values(
+                country_name = "Australia",
+                start_year = 2021)
+
+        dplyr::glimpse(a_league_valuations)
+    
+        # Can also do it for multiple leagues:
+        big_5_valuations <- tm_player_market_values(
+                country_name = c(
+                        "England", 
+                        "Spain", 
+                        "France", 
+                        "Italy", 
+                        "Germany"),
+                start_year = 2021)
+    
+        # Can also do it for non standard leagues:
+        league_one_valuations <- tm_player_market_values(
+                country_name = "",
+                start_year = 2021,
+                league_url = "https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3")
