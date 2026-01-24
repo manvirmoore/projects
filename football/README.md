@@ -1,12 +1,17 @@
+# Football Dashboard
+
+The aim is to make a dashboard with Streamlit to view some interesting data for the selected team, from the top 5 European leagues. 
+
+## Requirements
+
 Per team:
 
-1. end League position last 5 years
-2. trophies won last 5 years
-
-3. most common xi last season - player stats csv
-4. wld record last season - create a matches csv? 
-5. biggest win last season - create a matches csv? 
-6. biggest loss last season - create a matches csv? 
+1. end League position last 5 years - `big5standings.csv`
+2. trophies won last 5 years - generate manual csv? Or look at football API. 
+3. most common xi last season - `2025_player_stats.csv`
+4. wld record last season - create a matches csv
+5. biggest win last season - create a matches csv
+6. biggest loss last season - create a matches csv
 
 7. latest transfers in
     

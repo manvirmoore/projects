@@ -1,55 +1,47 @@
 library(worldfootballR)
-library(tidyverse)
 
-Prem_2025_teams <- fb_season_team_stats(
+x <- load_match_results(
+  country="ENG",
+  gender="M",
+  season_end_year = 2025,
+  tier = "1st"
+)
+
+Prem_2025_matches <- load_match_results(
   country = "ENG",
   gender = "M",
   season_end_year = 2025,
-  tier = "1st",
-  stat_type = "standard",
-  time_pause = 10
+  tier = "1st"
 )
 
-Ligue1_2025_teams <- fb_league_stats(
+Ligue1_2025_matches <- load_match_results(
   country = "FRA",
   gender = "M",
   season_end_year = 2025,
-  tier = "1st",
-  non_dom_league_url = NA,
-  stat_type = "standard",
-  team_or_player = "team"
+  tier = "1st"
 )
 
-LaLiga_2025_teams <- fb_league_stats(
+LaLiga_2025_matches <- load_match_results(
   country = "ESP",
   gender = "M",
   season_end_year = 2025,
-  tier = "1st",
-  non_dom_league_url = NA,
-  stat_type = "standard",
-  team_or_player = "team"
+  tier = "1st"
 )
 
-Bundesliga_2025_teams <- fb_league_stats(
+Bundesliga_2025_matches <- load_match_results(
   country = "GER",
   gender = "M",
   season_end_year = 2025,
-  tier = "1st",
-  non_dom_league_url = NA,
-  stat_type = "standard",
-  team_or_player = "team"
+  tier = "1st"
 )
 
-SerieA_2025_teams <- fb_league_stats(
+SerieA_2025_matches <- load_match_results(
   country = "ITA",
   gender = "M",
   season_end_year = 2025,
-  tier = "1st",
-  non_dom_league_url = NA,
-  stat_type = "standard",
-  team_or_player = "team"
+  tier = "1st"
 )
 
-all_2025 <- rbind(Prem_2025_teams, Ligue1_2025_teams, Bundesliga_2025_teams, LaLiga_2025_teams, SerieA_2025_teams)
+all_2025 <- rbind(Prem_2025_matches, Ligue1_2025_matches, Bundesliga_2025_matches, LaLiga_2025_matches, SerieA_2025_matches)
 
-write.csv(all_2025, file = "2025_team_stats.csv")
+write.csv(all_2025, file = "2025_match_results.csv")
