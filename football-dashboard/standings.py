@@ -34,5 +34,7 @@ for league_id, league_name in leagues.items():
                  "position": team["rank"]
              })
         time.sleep(6)
+
 df = pd.DataFrame(all_rows)
+
 df.to_csv("football/big5_standings.csv", index=False)
