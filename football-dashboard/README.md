@@ -8,10 +8,10 @@ Per team:
 
 1. end League position last 5 years - `big5standings.csv`
 2. trophies won last 5 years - generate manual csv? Or look at football API. 
-3. most common xi last season - `2025_player_stats.csv`
-4. wld record last season - create a matches csv
-5. biggest win last season - create a matches csv
-6. biggest loss last season - create a matches csv
+3. wld record last season - `2025_match_results.csv`
+4. biggest win last season - `2025_match_results.csv`
+5. biggest loss last season - `2025_match_results.csv`
+6. most common xi last season - `2025_player_stats.csv`
 
 7. latest transfers in
     
