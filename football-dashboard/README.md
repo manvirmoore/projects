@@ -1,6 +1,6 @@
 # Football Dashboard
 
-The aim is to make a dashboard with Streamlit to view some interesting data for the selected team, from the top 5 European leagues. 
+The aim is to make a dashboard with Streamlit to view some interesting data for the selected team, from the top 5 European leagues. Run `infodump.py` for a command line version.
 
 ## Requirements
 
