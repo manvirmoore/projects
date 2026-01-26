@@ -1,3 +1,9 @@
 .DS_Store
 .env
 .Rproj.user
+.Rhistory
+# Virtual environment
+venv/
+env/
+ENV/
+.venv
