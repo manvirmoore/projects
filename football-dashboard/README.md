@@ -57,3 +57,31 @@ Per team:
                 country_name = "",
                 start_year = 2021,
                 league_url = "https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3")
+
+## Setup
+
+1. Create and activate a virtual environment (recommended):
+```bash
+python -m venv .venv
+
+# Activate on Windows
+.venv\Scripts\activate
+
+# Activate on macOS/Linux
+source venv/bin/activate
+```
+
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+3. Run app:
+```bash
+streamlit run app.py
+```
+
+4. Close app when done: `Ctrl + C` in terminal. Deactivate virtual environment:
+```bash
+deactivate
+```
