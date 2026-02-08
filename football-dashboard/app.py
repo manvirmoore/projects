@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import altair as alt
 
 teams = pd.read_csv('teams.csv')
 
@@ -31,10 +32,25 @@ team_common = team_common.rename(columns={"Pos":"Position", "MP_Playing Time":"A
 st.title(team, text_alignment="center")
 
 # Historic league positions
-st.line_chart(
-    data = position[position['full_name'] == team],
-    x = 'season',
-    y = 'position'
+st.altair_chart(
+    alt.Chart(position[position['full_name'] == team])
+    .mark_line(point=True)
+    .encode(
+        x=alt.X(
+            "season:Q",
+            scale=alt.Scale(domain=[2022, 2024]),
+            axis=alt.Axis(tickMinStep=1, format=".0f"),
+            title="Year",
+        ),
+        y=alt.Y(
+            "position:Q",
+            scale=alt.Scale(domain=[20, 1]),  # reversed so 1 is at top
+            title="League Position",
+        ),
+        tooltip=["season", "position"],
+    )
+    .properties(width=600, height=400)
+    .interactive()
 )
 
 # Wins / Draws / Losses record last season
