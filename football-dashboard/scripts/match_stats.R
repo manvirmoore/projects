@@ -66,4 +66,4 @@ matches_away <- select(.data = all_2025, c("Competition_Name", "Country", "Home"
 
 matches_clean <- rbind(matches_home, matches_away) %>% relocate(Venue, .before = HomeGoals)
 
-write.csv(matches_clean, file = "2025_match_results.csv")
+write.csv(matches_clean, file = "data/2025_match_results.csv")

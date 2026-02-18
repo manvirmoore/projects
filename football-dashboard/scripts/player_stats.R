@@ -53,4 +53,4 @@ SerieA_2025_players <- fb_league_stats(
 
 all_2025 <- rbind(Prem_2025_players, Ligue1_2025_players, Bundesliga_2025_players, LaLiga_2025_players, SerieA_2025_players)
 
-write.csv(all_2025, file = "2025_player_stats.csv")
+write.csv(all_2025, file = "data/2025_player_stats.csv")

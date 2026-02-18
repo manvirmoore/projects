@@ -1,6 +1,6 @@
 library(tidyverse)
 
-matches <- read.csv("2025_match_results.csv") 
+matches <- read.csv("data/2025_match_results.csv") 
 glimpse(matches)
 names(matches)
 

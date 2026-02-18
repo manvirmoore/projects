@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import altair as alt
 
-teams = pd.read_csv('teams.csv')
+teams = pd.read_csv('data/teams.csv')
 
 team = st.selectbox(
     label="Pick a team", 
@@ -12,9 +12,9 @@ team = st.selectbox(
 )
 
 
-matches = pd.read_csv('2025_match_results.csv')
-players = pd.read_csv('2025_player_stats.csv')
-standings = pd.read_csv('big5_standings.csv')
+matches = pd.read_csv('data/2025_match_results.csv')
+players = pd.read_csv('data/2025_player_stats.csv')
+standings = pd.read_csv('data/big5_standings.csv')
 
 position = pd.merge(standings, teams, how="left", left_on="team", right_on="api-football_name")
 record = pd.merge(matches, teams, how="left", left_on="Team", right_on="worldfootballR_name")
