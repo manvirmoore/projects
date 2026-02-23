@@ -4,19 +4,19 @@ import altair as alt
 
 teams = pd.read_csv('data/teams.csv')
 
+# Slicer
 team = st.selectbox(
     label="Pick a team", 
-    options=teams['full_name'].unique(), 
-    index=76,
+    options=teams['full_name'], 
+    index=25,
     width=300
 )
 
 
 matches = pd.read_csv('data/2025_match_results.csv')
 players = pd.read_csv('data/2025_player_stats.csv')
-standings = pd.read_csv('data/big5_standings.csv')
+standings = pd.read_csv('data/standings.csv')
 
-position = pd.merge(standings, teams, how="left", left_on="team", right_on="api-football_name")
 record = pd.merge(matches, teams, how="left", left_on="Team", right_on="worldfootballR_name")
 common_players = pd.merge(players, teams, how="left", left_on="Squad", right_on="worldfootballR_name")
 
@@ -33,21 +33,21 @@ st.title(team, text_alignment="center")
 
 # Historic league positions
 st.altair_chart(
-    alt.Chart(position[position['full_name'] == team])
+    alt.Chart(standings[standings['Team'] == team])
     .mark_line(point=True)
     .encode(
         x=alt.X(
-            "season:Q",
-            scale=alt.Scale(domain=[2022, 2024]),
+            "Season_end:Q",
+            scale=alt.Scale(domain=["2021", "2025"]),
             axis=alt.Axis(tickMinStep=1, format=".0f"),
-            title="Year",
+            title="Season",
         ),
         y=alt.Y(
-            "position:Q",
+            "Pos:Q",
             scale=alt.Scale(domain=[20, 1]),  # reversed so 1 is at top
             title="League Position",
         ),
-        tooltip=["season", "position"],
+        tooltip=["Season", "Pos"],
     )
     .properties(width=600, height=400)
     .interactive()
